@@ -11,7 +11,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // Dependencies
-      'bower_components/sizzle/dist/sizzle.js',
+      //'bower_components/sizzle/dist/sizzle.js',
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',

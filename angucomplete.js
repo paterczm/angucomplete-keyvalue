@@ -221,12 +221,12 @@ angular.module('angucomplete', [] )
 
                 }
                 $scope.lastSearchTerm = result;
-                $scope.selectedObject = result;
+                //$scope.selectedObject = result;
                 $scope.showDropdown = false;
                 $scope.results = [];
 
                 if ($scope.autocompletingKeys) {
-                    setTimeout(function() {
+                    $timeout(function() {
                         var input = $('#'+$scope.id+'_value');
                         var pos = input.val().length-2;
                         input.get(0).setSelectionRange(pos,pos);
@@ -283,7 +283,7 @@ angular.module('angucomplete', [] )
                     $scope.showDropdown = false;
                     $scope.$apply();
                 } else if (event.which == 8) { // backspace
-                    $scope.selectedObject = null;
+                    //$scope.selectedObject = null;
                     $scope.$apply();
                 }
             });
