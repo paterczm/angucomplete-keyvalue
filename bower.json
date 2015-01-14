@@ -1,11 +1,12 @@
 {
-  "name": "angucomplete",
-  "version": "1.0.0",
-  "homepage": "http://darylrowland.github.io/angucomplete/",
+  "name": "angucomplete-keyvalue",
+  "version": "0.1",
+  "homepage": "http://paterczm.github.io/angucomplete-keyvalue/",
   "authors": [
-    "Daryl Rowland <daryl@cloudyclear.com>"
+    "Daryl Rowland <daryl@cloudyclear.com>",
+    "Marek Paterczyk"
   ],
-  "description": "Awesome Autocompleteness for AngularJS",
+  "description": "Key-value autocomplete for AngularJS",
   "keywords": [
     "autocomplete",
     "typeahead",
